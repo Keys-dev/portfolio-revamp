@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "slug": "vitalsync",
+    "title": "VitalSync",
+    "year": "2026",
+    "category": "Healthcare / IoT",
+    "theme": "vital",
+    "summary": "A closer connection between patients and the people caring for them.",
+    "description": "VitalSync brings readings from connected sensors into a web app. Doctors and family members get a shared view of patient vitals, with alerts for readings that need attention.",
+    "tags": ["IoT", "Web", "Healthcare"],
+    "link": "https://vital-sync-iot.vercel.app",
+    "cover": "vitalsyncscr1.png",
+    "screens": [
+      {
+        "file": "vitalsyncscr1.png",
+        "caption": "Choose a doctor or family portal"
+      },
+      {
+        "file": "vitalsyncscr2.png",
+        "caption": "Doctor dashboard and patient overview"
+      },
+      {
+        "file": "vitalsyncscr3.png",
+        "caption": "Family portal and patient access"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "tempo",
+    "title": "Tempo",
+    "year": "2024",
+    "category": "Productivity",
+    "theme": "tempo",
+    "summary": "A little less mental clutter. A clearer idea of what comes next.",
+    "description": "A task and reminder manager that separates urgent, overdue, and upcoming work. The dashboard keeps priorities visible, while individual task views keep the details close.",
+    "tags": ["Web", "Productivity", "Reminders"],
+    "link": "https://tempo-vo.vercel.app",
+    "cover": "temposcr2.png",
+    "screens": [
+      { "file": "temposcr2.png", "caption": "Task overview and priorities" },
+      { "file": "temposcr3.png", "caption": "Task details and completion" },
+      { "file": "temposcr1.png", "caption": "Account sign-in" }
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "pokedex",
+    "title": "Pokédex",
+    "year": "2024",
+    "category": "Mobile / API",
+    "theme": "pokedex",
+    "summary": "A familiar world, made easy to explore.",
+    "description": "A Pokémon explorer built with React Native and Expo. Browse the first generation, search by name, and view stats, types, and sprites using PokéAPI. These are screenshots of the project, which is separate from this React + Vite portfolio.",
+    "tags": ["React Native", "Expo", "PokéAPI"],
+    "link": "https://pok-dex-blue.vercel.app",
+    "cover": "pokedexscr1.png",
+    "screens": [
+      {
+        "file": "pokedexscr1.png",
+        "caption": "Browse first-generation Pokémon"
+      },
+      {
+        "file": "pokedexscr2.png",
+        "caption": "Pokémon details and base stats"
+      },
+      { "file": "pokedexscr3.png", "caption": "Search results" }
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "objet",
+    "title": "Objet",
+    "year": "2026",
+    "category": "Ecommerce",
+    "theme": "objet",
+    "summary": "A considered storefront for objects that earn their place.",
+    "description": "An editorial homeware ecommerce concept with catalogue search and filters, product variants, inventory-aware quantity controls, a persistent shopping bag, and a server-priced test checkout.",
+    "tags": ["React", "TypeScript", "Ecommerce"],
+    "link": "https://objet-indol.vercel.app",
+    "cover": "objetscr1.png",
+    "screens": [
+      { "file": "objetscr1.png", "caption": "Editorial home and collection introduction" },
+      {
+        "file": "objetscr2.png",
+        "caption": "Searchable, filterable product catalogue"
+      },
+      { "file": "objetscr3.png", "caption": "Product variants, inventory, and purchase controls" }
+    ]
+  }
+]
