@@ -109,7 +109,7 @@ function Home() {
       >
         <div className="work-intro">
           <h2 id="work-heading">
-            Selected work<span> (04)</span>
+            Selected work<span> (06)</span>
           </h2>
           <p>
             A few things I’ve built,

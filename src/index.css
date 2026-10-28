@@ -403,6 +403,10 @@ img {
   background: #e9e1d4;
   color: #45372a;
 }
+.archivex {
+  background: #d4e3e9;
+  color: #2a3f45;
+}
 .stage-bottom {
   display: flex;
   justify-content: space-between;
