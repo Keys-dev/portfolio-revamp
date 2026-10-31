@@ -62,17 +62,15 @@ function Home() {
             <span className="surname">
               Agbaje<span className="name-dot">.</span>
             </span>
-            
+            <p className="hero-he">
+              Frontend developer
+              <br />
+              Software engineer
+            </p>
           </h1>
 
-              <p className="">
-                Frontend developer
-                <br />
-                Software engineer
-              </p>
-            
-
           <div className="hero-aside">
+            
             <p className="hero-hello">Hello, I’m Muhammed.</p>
             <p>
               I build interfaces for the web and software that solves everyday

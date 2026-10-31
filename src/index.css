@@ -198,6 +198,14 @@ img {
   font-size: 15px;
   margin-bottom: 13px;
 }
+.hero-he {
+  display: block;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  margin-top: 12px;
+  margin-left: 0;
+}
 .hero-aside > p:nth-child(2) {
   font-size: 22px;
   line-height: 1.45;
