@@ -53,7 +53,7 @@ function Home() {
     <>
       <section className="hero shell">
         <div className="hero-top">
-          <span className="mono">SELECTED WORK / 2024–2026</span>
+          <span className="mono"></span>
           <span>{profile.location}</span>
         </div>
         <div className="hero-grid">
@@ -62,7 +62,16 @@ function Home() {
             <span className="surname">
               Agbaje<span className="name-dot">.</span>
             </span>
+            
           </h1>
+
+              <p className="">
+                Frontend developer
+                <br />
+                Software engineer
+              </p>
+            
+
           <div className="hero-aside">
             <p className="hero-hello">Hello, I’m Muhammed.</p>
             <p>
@@ -95,10 +104,10 @@ function Home() {
           </div>
         </div>
         <div className="hero-bottom">
-          <span>Code, with an eye for design.</span>
+          {/* <span>Code, with an eye for design.</span>
           <span className="mono">
             SCROLL TO EXPLORE <ArrowDown size={14} />
-          </span>
+          </span> */}
         </div>
       </section>
       <section
@@ -109,7 +118,7 @@ function Home() {
       >
         <div className="work-intro">
           <h2 id="work-heading">
-            Selected work<span> (06)</span>
+            Selected work
           </h2>
           <p>
             A few things I’ve built,
@@ -134,13 +143,13 @@ function Home() {
                     </Link>
                   </h3>
                 </div>
-                <Link
+                {/* <Link
                   className="project-link-circle"
                   to={`/projects/${project.slug}`}
                   aria-label={`Explore ${project.title}`}
                 >
                   <ArrowUpRight strokeWidth={1.3} />
-                </Link>
+                </Link> */}
               </div>
               <ProjectPreview project={project} priority={i === 0} />
               <div className="project-description">
@@ -218,7 +227,7 @@ function ProjectPage() {
         <Link className="next-project" to={`/projects/${next.slug}`}>
           <span className="mono">NEXT PROJECT</span>
           <span>{next.title}</span>
-          <ArrowUpRight />
+          
         </Link>
       </section>
       <ContactBlock />

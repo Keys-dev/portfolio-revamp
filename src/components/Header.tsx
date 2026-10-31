@@ -28,16 +28,11 @@ export default function Header() {
   return (
     <header className="header shell">
       <Link to="/" aria-label="Muhammed Agbaje home" className="wordmark">
-        ma<span>↗</span>
+        ma<span></span>
       </Link>
-      <p className="header-role">
-        Frontend developer
-        <br />
-        Software engineer
-      </p>
       <nav className="desktop-nav" aria-label="Main navigation">
         <Link to="/#work">
-          Work <sup>04</sup>
+          Work <sup></sup>
         </Link>
         <Link to="/about">About</Link>
         <Link to="/contact">
@@ -64,15 +59,17 @@ export default function Header() {
               ["Work", "/#work"],
               ["About", "/about"],
               ["Contact", "/contact"],
-            ].map(([label, to], i) => (
+            ]
+            .map(([label, to], ) => (
               <SheetClose asChild key={to}>
                 <Link to={to}>
-                  <span className="mono">0{i + 1}</span>
+                  <span className="mono"></span>
                   {label}
                   <ArrowUpRight />
                 </Link>
               </SheetClose>
-            ))}
+            ))
+            }
           </nav>
           <a
             className="sheet-resume"

@@ -31,13 +31,13 @@ export default function ContactBlock() {
             <br />
             in mind?
           </h2>
-          <a
+          {/* <a
             href={`mailto:${profile.email}`}
             className="contact-circle"
             aria-label="Email Muhammed"
           >
             <ArrowUpRight strokeWidth={1} aria-hidden="true" />
-          </a>
+          </a> */}
         </div>
         <div className="contact-bottom">
           <a href={`mailto:${profile.email}`} className="email-link">

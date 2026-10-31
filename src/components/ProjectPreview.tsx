@@ -1,5 +1,5 @@
 import { lazy, Suspense, useState } from "react";
-import { Expand } from "lucide-react";
+// import { Expand } from "lucide-react";
 import {
   Dialog,
   DialogTrigger,
@@ -27,7 +27,7 @@ export default function ProjectPreview({
           <span className="stage-top">
             <span>{project.title}</span>
             <span className="stage-hint">
-              View screens <Expand size={16} />
+               {/* <Expand size={16} /> */}
             </span>
           </span>
           <img
