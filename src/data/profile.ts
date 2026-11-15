@@ -4,6 +4,6 @@ export const profile = {
   github: "https://github.com/Keys-dev",
   linkedin: "https://www.linkedin.com/in/muhammed-agbaje-717485255",
   resume:
-    "https://tvsqevrjvnvpeifgkail.supabase.co/storage/v1/object/public/public-assets/Muhammed_Agbaje_Resume.pdf",
+    "https://br-mute-boat-b41dckip.storage.c-6.us-east-2.aws.neon.tech/mm-cv/Muhammed_Agbaje_Resume_Current.pdf",
   location: "Nigeria",
 };
